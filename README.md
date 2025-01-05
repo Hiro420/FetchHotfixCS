@@ -1,6 +1,6 @@
 # FetchHotfixCS
- Same old FetchHotfix repo, but in C#
- Simple tool to get the latest hotfix for an anime game with stars and rails
+ Same old FetchHotfix repo, but in C#, 
+ simple tool to get the latest hotfix for an anime game with stars and rails
 
 # Usage
 - build via Visual Studio 2022, or `dotnet build`
