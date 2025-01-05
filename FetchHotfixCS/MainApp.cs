@@ -118,7 +118,7 @@ class Program
 
     static async Task Main(string[] args)
     {
-        string starRailDir = "D:\\Downloads\\StarRail_2.7.55";// args[0];
+        string starRailDir = args[0];
 
         byte[] bufferBinaryVersion = File.ReadAllBytes(Path.Combine(starRailDir, "StarRail_Data", "StreamingAssets", "BinaryVersion.bytes"));
         byte[] bufferClientConfig = File.ReadAllBytes(Path.Combine(starRailDir, "StarRail_Data", "StreamingAssets", "ClientConfig.bytes"));
