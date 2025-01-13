@@ -134,7 +134,7 @@ class Program
         string branch = ReadString(bufferBinaryVersion, 1);
         int revision = ReadUint24BE(bufferSplits[0]);
         string time = ReadString(bufferSplits[1]);
-        var dispatchSeed = GetDispatchSeed(bufferSplits, $"{time}-{branch}-{revision}");
+        var dispatchSeed = GetDispatchSeed(bufferSplits, $"{time}-{branch}");
 
         if (dispatchSeed == null)
         {
